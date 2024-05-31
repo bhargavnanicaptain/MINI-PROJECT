@@ -1,0 +1,120 @@
+Chapter 1: Introduction
+
+1.1 Introduction to Embedded Systems
+
+Embedded systems are computer systems that are designed to perform specific tasks. They are used in a wide range of applications, from portable devices like smartphones to large-scale systems like traffic lights, factory controllers, or the systems controlling nuclear power plants. Unlike general-purpose computers, embedded systems are optimized for specific tasks, reducing the size and cost of the product.
+
+1.2 Definition of Embedded Systems
+
+An embedded system is a special-purpose computer system that is used for a particular task. It is built around a microprocessor, microcontroller, or digital signal processor and is designed to perform specific functions.
+
+1.3 Existing System
+
+The existing system for waste management involves manual monitoring of waste bins, which is a cumbersome process and utilizes more human effort, time, and cost.
+
+1.4 Drawbacks of Existing System
+
+The existing system for waste management has several drawbacks, including:
+
+Inefficient waste collection
+High labor costs
+Lack of real-time monitoring
+Inability to predict waste levels
+1.5 Proposed System
+
+The proposed system is an IoT-based garbage monitoring and auto-alerting system to municipalities. The system uses ultrasonic sensors to detect the level of garbage and sends alerts to the local municipalities through the Blynking IOT app when the garbage level is high.
+
+1.6 Advantages of Proposed System
+
+The proposed system has several advantages, including:
+
+Real-time monitoring of waste levels
+Reduced labor costs
+Increased efficiency in waste collection
+Predictive maintenance
+Chapter 2: Project Description
+
+2.1 History of Embedded Systems
+
+Embedded systems have been around for several decades, with the first recognizable modern embedded system being the Apollo Guidance Computer. Since then, embedded systems have become more sophisticated, with the first microprocessor, the Intel 4004, being designed for calculators and other small systems.
+
+2.2 Features of Embedded Systems
+
+Embedded systems have several features that make them ideal for specific tasks. These features include:
+
+Real-time deadlines
+Multi-rate operation
+Low power consumption
+Low manufacturing cost
+2.3 Characteristics of Embedded Systems
+
+Embedded systems have several characteristics that make them different from general-purpose computers. These characteristics include:
+
+Custom-built hardware
+Memory chips for software storage
+Limited input and output devices
+Communication interfaces for data transfer
+2.4 Overview of Embedded Systems
+
+An embedded system consists of hardware and software components that work together to perform specific tasks. The hardware components include a microprocessor, memory chips, input and output devices, communication interfaces, and application-specific circuitry. The software components include the firmware, which is the program stored in the ROM, and the application software, which is the program written for a specific task.
+
+Chapter 3: Software Specifications
+
+3.1 Introduction to Arduino IDE
+
+Arduino IDE is an open-source software platform that is used to program Arduino boards. It provides a simple and easy-to-use interface for writing and uploading code to the board.
+
+3.2 Arduino Data Types
+
+Arduino supports various data types, including void, char, int, float, and double.
+
+3.3 Steps to Upload the Program in Arduino Board
+
+The steps to upload the program in Arduino board are as follows:
+
+Connect the Arduino board to the computer using a USB cable.
+Open the Arduino IDE software.
+Write the code for the program.
+Verify and compile the code.
+Upload the code to the Arduino board.
+Chapter 4: Implementation
+
+4.1 Schematic Diagram
+
+The schematic diagram for the proposed system is shown in Figure 4.1. It consists of an ultrasonic sensor, Arduino Uno board, LCD display, and IoT modem.
+
+4.2 Working
+
+Whenever power is supplied to the ultrasonic sensor, it will detect the level of garbage by emitting ultrasonic sound waves that are converted into electrical signals. The Arduino Uno board will process these signals and display the level of garbage on the LCD display. If the garbage level exceeds a certain threshold, the IoT modem will send an alert to the local municipalities through the Blynk IOT app.
+
+4.3 Components Used
+
+The following components are used in the proposed system:
+
+Ultrasonic Sensor
+Arduino Uno board
+LCD Display
+IoT Modem
+Chapter 5: Results and Conclusion
+
+5.1 Success Criteria
+
+The proposed system successfully meets the set criteria by providing real-time monitoring of waste levels, reduced labor costs, and increased efficiency in waste collection.
+
+5.2 Conclusion
+
+The IoT-based garbage monitoring and auto-alerting system using ultrasonic sensors is an efficient and effective solution for waste management in urban areas. It reduces the manual effort required in monitoring waste bins, enhances the efficiency of waste collection, and predicts maintenance requirements based on waste levels. This system has the potential to revolutionize the field of waste management and improve the overall efficiency and cost-effectiveness of waste collection and management processes.Chapter 6: Future Scope
+
+The proposed system can be further enhanced by integrating it with other IoT devices and systems, such as smart waste bins, waste segregation systems, and waste-to-energy conversion systems. This will enable the system to provide more comprehensive waste management solutions and contribute to a more sustainable and eco-friendly urban environment.
+
+References
+
+Mahar, A., Malik, R.N., Qadir, A., Ahmed, T., Khan, Z., and Khan, M.A., (2007), “Review and analysis of current solid waste management situation in urban areas of Pakistan”, In # &’$&# (pp. 34-41).
+Rajput "Scenario of Solid Waste Management,” IEEE Journal on Emerging and Selected Topics in Circuits and Systems, vol. 3, no. 1, pp. 45–54, 2009.
+Yadav I.C and Devi N.L (2009). Studies on Municipal Solid Waste Management in Mysore City- A case study. Report and Opinion, 1(3), 15-21.
+Shivayogimath, “M2M-based metropolitan platform for IMS-enabled road traffic management in IoT,” IEEE Communications Magazine, vol. 49, no.11, pp. 50-57, 2007.
+Agarwal, A., Singhmar, A., Kulshrestha, M., Mittal, A.K., 2005. Municipal solid waste recycling and associated markets in Delhi, India. Journal of Resources, Conservation and Recycling 44(1), 73-90. Ashan, N., 1999
+Sharholy, M., Ahmad, K., Mahmood, G., Trivedi, R.C., 2008. Municipal Solid waste management in Indian cities. A review, Journey of Waste Management 28,459-467.
+Upadhyay, V. P., M. R. Prasad, A. Srivastav & K. Singh. 2005. Eco tools for urban waste management in India. Journal of Human Ecology 18: 253-269.
+Zhu Ming Hau, Fan Xiu Min, Alberto Rovetta, He Qi Chang, Federico Vicentini, Liu Bing Kai, Alessandro Giusti, & Liu Yi, 2009, ‘Municipal solid waste management in Pudong new area, China’, Waste Management, vol. 29, pp. 1227- 1233.
+Moqsud M. Azizul and Shigenori Hayashi(2006), “An Evaluation of Solid Waste Management Practice In Japan” Daffodil International University Journal of Science and Technology, Vol. 1(1), pp 39-44.
